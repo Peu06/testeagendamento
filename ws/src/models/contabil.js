@@ -6,10 +6,6 @@ const contabil = new Schema({
         type: String,
         require: [true, 'Esse campo é obrigatorio']
     },
-    sobrenome: {
-        type: String,
-        require: [true, 'Esse campo é obrigatorio']
-    },
     email: {
         type: String,
         require: [true, 'Esse campo é obrigatorio']
